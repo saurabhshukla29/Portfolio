@@ -1,0 +1,40 @@
+#education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.education-div{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:4rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.card{
+    height:34rem;
+    width:25rem;
+    background-color: rgba(251, 251, 251, 0.95);
+    border-radius: 2%;
+    border:1px solid rgb(55, 55, 55);
+    /* box-shadow: 5px 5px 5px rgb(85, 84, 84); */
+}
+.card img{
+    height: 25rem;
+    width:auto;
+    padding: 2rem;
+    border-radius: 10%;
+}
+
+.card-body button{
+    margin-top: 1.5rem;
+}
+
+.modal p{
+    color:black;
+}

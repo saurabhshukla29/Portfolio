@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:8rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    background-color: rgba(0, 0, 0, 0.249);
+    margin-top: 10rem;
+}

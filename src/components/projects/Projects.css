@@ -1,0 +1,33 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#projects .project-div{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:4rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+#projects .card{
+    height:26rem;
+    width:25rem;
+    border-radius: 5%;
+}
+
+.card-text{
+    height: 14rem;
+    font-size:large;
+    padding: 1rem;
+}
+
+#projects .card img{
+    height:7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
